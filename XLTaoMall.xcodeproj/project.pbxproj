@@ -59,6 +59,7 @@
 		DB96A371207F34770098692B /* XLClassifyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96A370207F34770098692B /* XLClassifyVC.m */; };
 		DB96A374207F348B0098692B /* XLHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96A373207F348B0098692B /* XLHomeVC.m */; };
 		DBF32B0220AD8C3800D6AD03 /* XLUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF32B0120AD8C3800D6AD03 /* XLUserModel.m */; };
+		EEF5D10D2105D76500263573 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF5D10C2105D76500263573 /* testViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -156,6 +157,8 @@
 		DBB88A48207E175400C0D619 /* XLTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLTools.h; sourceTree = "<group>"; };
 		DBF32B0020AD8C3800D6AD03 /* XLUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLUserModel.h; sourceTree = "<group>"; };
 		DBF32B0120AD8C3800D6AD03 /* XLUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLUserModel.m; sourceTree = "<group>"; };
+		EEF5D10B2105D76500263573 /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		EEF5D10C2105D76500263573 /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -670,6 +673,8 @@
 		EEF5D10A2105D61900263573 /* SDKFiles(集成文件) */ = {
 			isa = PBXGroup;
 			children = (
+				EEF5D10B2105D76500263573 /* testViewController.h */,
+				EEF5D10C2105D76500263573 /* testViewController.m */,
 			);
 			path = "SDKFiles(集成文件)";
 			sourceTree = "<group>";
@@ -794,6 +799,7 @@
 				DB96A371207F34770098692B /* XLClassifyVC.m in Sources */,
 				DB96A374207F348B0098692B /* XLHomeVC.m in Sources */,
 				DB12135520BD9EDC007604DB /* XLTDDLoginVC.m in Sources */,
+				EEF5D10D2105D76500263573 /* testViewController.m in Sources */,
 				DB10613D207CA27E00EE545B /* XLBaseView.m in Sources */,
 				DB12133520BBEA83007604DB /* SecretCodeTool.m in Sources */,
 				DB106111207C9A0F00EE545B /* AppDelegate.m in Sources */,
