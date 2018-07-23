@@ -217,7 +217,7 @@
 				DB106126207C9D9700EE545B /* EXPand(常量、宏、工具类、分类、网络、数据) */,
 				DB106127207C9E1F00EE545B /* Resource(全局、图片、配置文件) */,
 				DB106128207C9E4300EE545B /* Vender(第三方) */,
-				DB106129207C9E5B00EE545B /* SDKFile(集成文件) */,
+				EEF5D10A2105D61900263573 /* SDKFiles(集成文件) */,
 				DB10610D207C9A0F00EE545B /* Products */,
 				DA94C39193C090ABE9202B7E /* Pods */,
 				7DDBDD5E039DA8780B93F1B8 /* Frameworks */,
@@ -277,13 +277,6 @@
 				DB12133920BCE58A007604DB /* MBHudDemoViewController.m */,
 			);
 			path = "Vender(第三方)";
-			sourceTree = "<group>";
-		};
-		DB106129207C9E5B00EE545B /* SDKFile(集成文件) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "SDKFile(集成文件)";
 			sourceTree = "<group>";
 		};
 		DB10612A207C9F2E00EE545B /* Base(基类) */ = {
@@ -672,6 +665,13 @@
 				DB12136020BEA9FD007604DB /* NextVC(下一级页面) */,
 			);
 			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		EEF5D10A2105D61900263573 /* SDKFiles(集成文件) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "SDKFiles(集成文件)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
