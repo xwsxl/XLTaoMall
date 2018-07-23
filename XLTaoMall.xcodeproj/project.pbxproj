@@ -1,0 +1,1037 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C65859FFD07099FBC96331B /* libPods-XLTaoMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C89B7B84B9383B2AEC919E9 /* libPods-XLTaoMall.a */; };
+		DB106111207C9A0F00EE545B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB106110207C9A0F00EE545B /* AppDelegate.m */; };
+		DB106119207C9A1300EE545B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB106118207C9A1300EE545B /* Assets.xcassets */; };
+		DB10611F207C9A1300EE545B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB10611E207C9A1300EE545B /* main.m */; };
+		DB106137207CA24400EE545B /* XLBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB106136207CA24400EE545B /* XLBaseModel.m */; };
+		DB10613A207CA26200EE545B /* XLBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB106139207CA26200EE545B /* XLBaseVC.m */; };
+		DB10613D207CA27E00EE545B /* XLBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB10613C207CA27E00EE545B /* XLBaseView.m */; };
+		DB106147207E077200EE545B /* CalculateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB106145207E077200EE545B /* CalculateManager.m */; };
+		DB12132D20BBE63F007604DB /* XLNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB12132C20BBE63F007604DB /* XLNetworkManager.m */; };
+		DB12133520BBEA83007604DB /* SecretCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DB12132F20BBEA82007604DB /* SecretCodeTool.m */; };
+		DB12133620BBEA83007604DB /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DB12133020BBEA82007604DB /* DESUtil.m */; };
+		DB12133720BBEA83007604DB /* ConverUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DB12133120BBEA82007604DB /* ConverUtil.m */; };
+		DB12133A20BCE58A007604DB /* MBHudDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB12133920BCE58A007604DB /* MBHudDemoViewController.m */; };
+		DB12133E20BCF714007604DB /* XLMBProgressHudTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DB12133D20BCF714007604DB /* XLMBProgressHudTools.m */; };
+		DB12134820BD317F007604DB /* XLBaseTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB12134720BD317F007604DB /* XLBaseTableViewHeaderFooterView.m */; };
+		DB12134B20BD3226007604DB /* XLMineTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB12134A20BD3226007604DB /* XLMineTableHeaderView.m */; };
+		DB12135220BD9D0E007604DB /* XLNaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB12135120BD9D0E007604DB /* XLNaviView.m */; };
+		DB12135520BD9EDC007604DB /* XLTDDLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB12135420BD9EDC007604DB /* XLTDDLoginVC.m */; };
+		DB12135A20BE9224007604DB /* UIButton+UIButton_XLCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DB12135920BE9224007604DB /* UIButton+UIButton_XLCategory.m */; };
+		DB12135F20BEA4C5007604DB /* UIButton+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = DB12135E20BEA4C5007604DB /* UIButton+badge.m */; };
+		DB12136320BECB32007604DB /* XLNormalShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB12136220BECB32007604DB /* XLNormalShopModel.m */; };
+		DB2E796520B58068002AF173 /* XLUIImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2E796420B58068002AF173 /* XLUIImageTools.m */; };
+		DB2E8244207F360F00606FD6 /* XLTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2E8243207F360F00606FD6 /* XLTabBarVC.m */; };
+		DB2E8247207F41BB00606FD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2E8245207F41BA00606FD6 /* Main.storyboard */; };
+		DB2E8248207F41BB00606FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2E8246207F41BA00606FD6 /* LaunchScreen.storyboard */; };
+		DB6495F020BFD00700ED8784 /* XLTDDMineSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6495EF20BFD00700ED8784 /* XLTDDMineSettingVC.m */; };
+		DB6495F420BFD60C00ED8784 /* XLBaseTableviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6495F320BFD60C00ED8784 /* XLBaseTableviewCell.m */; };
+		DB6495F720BFD7E700ED8784 /* XLTDDMineSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6495F620BFD7E700ED8784 /* XLTDDMineSettingCell.m */; };
+		DB6495FA20BFDF6F00ED8784 /* UIAlertTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6495F920BFDF6F00ED8784 /* UIAlertTools.m */; };
+		DB64960220BFE9B700ED8784 /* XLTDDMineAboutUsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64960120BFE9B700ED8784 /* XLTDDMineAboutUsVC.m */; };
+		DB64960F20C5A48700ED8784 /* XLTDDMineSettingFeedBackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64960E20C5A48700ED8784 /* XLTDDMineSettingFeedBackVC.m */; };
+		DB67764C207E116A00A9FD0A /* UserDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB67764B207E116A00A9FD0A /* UserDefaultsManager.m */; };
+		DB677656207E16C500A9FD0A /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DB677655207E16C500A9FD0A /* NSString+Extension.m */; };
+		DB677659207E16E400A9FD0A /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DB677658207E16E400A9FD0A /* NSObject+Category.m */; };
+		DB70317620D259D0003D1120 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DB70317520D259D0003D1120 /* libc++.tbd */; };
+		DB70317820D259D8003D1120 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DB70317720D259D8003D1120 /* libz.tbd */; };
+		DB70317A20D259DF003D1120 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB70317920D259DF003D1120 /* SystemConfiguration.framework */; };
+		DB70317C20D259E8003D1120 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB70317B20D259E8003D1120 /* CoreTelephony.framework */; };
+		DB70317E20D259EE003D1120 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB70317D20D259EE003D1120 /* QuartzCore.framework */; };
+		DB70318020D259F7003D1120 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB70317F20D259F7003D1120 /* CoreText.framework */; };
+		DB70318220D25A06003D1120 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB70318120D25A06003D1120 /* CoreGraphics.framework */; };
+		DB70318420D25A2D003D1120 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB70318320D25A2D003D1120 /* UIKit.framework */; };
+		DB70318620D25A38003D1120 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB70318520D25A38003D1120 /* Foundation.framework */; };
+		DB70318820D25A3F003D1120 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB70318720D25A3F003D1120 /* CFNetwork.framework */; };
+		DB70318A20D25A48003D1120 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB70318920D25A48003D1120 /* CoreMotion.framework */; };
+		DB70319320D25BCC003D1120 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB70319120D25BCA003D1120 /* AlipaySDK.bundle */; };
+		DB70319420D25BCC003D1120 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB70319220D25BCC003D1120 /* AlipaySDK.framework */; };
+		DB96A36B207F34410098692B /* XLMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96A36A207F34410098692B /* XLMineVC.m */; };
+		DB96A36E207F345F0098692B /* XLShoppingCartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96A36D207F345F0098692B /* XLShoppingCartVC.m */; };
+		DB96A371207F34770098692B /* XLClassifyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96A370207F34770098692B /* XLClassifyVC.m */; };
+		DB96A374207F348B0098692B /* XLHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96A373207F348B0098692B /* XLHomeVC.m */; };
+		DBF32B0220AD8C3800D6AD03 /* XLUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF32B0120AD8C3800D6AD03 /* XLUserModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C89B7B84B9383B2AEC919E9 /* libPods-XLTaoMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLTaoMall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71043915D66A9193A82A11E /* Pods-XLTaoMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLTaoMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLTaoMall/Pods-XLTaoMall.debug.xcconfig"; sourceTree = "<group>"; };
+		B34CBF81F26CE3F29BF761D9 /* Pods-XLTaoMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLTaoMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLTaoMall/Pods-XLTaoMall.release.xcconfig"; sourceTree = "<group>"; };
+		DB10610C207C9A0F00EE545B /* XLTaoMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLTaoMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB10610F207C9A0F00EE545B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB106110207C9A0F00EE545B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB106118207C9A1300EE545B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB10611D207C9A1300EE545B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB10611E207C9A1300EE545B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB106135207CA24400EE545B /* XLBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLBaseModel.h; sourceTree = "<group>"; };
+		DB106136207CA24400EE545B /* XLBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLBaseModel.m; sourceTree = "<group>"; };
+		DB106138207CA26200EE545B /* XLBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLBaseVC.h; sourceTree = "<group>"; };
+		DB106139207CA26200EE545B /* XLBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLBaseVC.m; sourceTree = "<group>"; };
+		DB10613B207CA27E00EE545B /* XLBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLBaseView.h; sourceTree = "<group>"; };
+		DB10613C207CA27E00EE545B /* XLBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLBaseView.m; sourceTree = "<group>"; };
+		DB106141207CA37000EE545B /* XLConstHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLConstHeader.h; sourceTree = "<group>"; };
+		DB106142207CA38900EE545B /* XLMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLMacros.h; sourceTree = "<group>"; };
+		DB106145207E077200EE545B /* CalculateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateManager.m; sourceTree = "<group>"; };
+		DB106148207E0AC900EE545B /* XL-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XL-PrefixHeader.pch"; sourceTree = "<group>"; };
+		DB12132B20BBE63F007604DB /* XLNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLNetworkManager.h; sourceTree = "<group>"; };
+		DB12132C20BBE63F007604DB /* XLNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLNetworkManager.m; sourceTree = "<group>"; };
+		DB12132F20BBEA82007604DB /* SecretCodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecretCodeTool.m; sourceTree = "<group>"; };
+		DB12133020BBEA82007604DB /* DESUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESUtil.m; sourceTree = "<group>"; };
+		DB12133120BBEA82007604DB /* ConverUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverUtil.m; sourceTree = "<group>"; };
+		DB12133220BBEA83007604DB /* ConverUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverUtil.h; sourceTree = "<group>"; };
+		DB12133320BBEA83007604DB /* DESUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESUtil.h; sourceTree = "<group>"; };
+		DB12133420BBEA83007604DB /* SecretCodeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecretCodeTool.h; sourceTree = "<group>"; };
+		DB12133820BCE589007604DB /* MBHudDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBHudDemoViewController.h; sourceTree = "<group>"; };
+		DB12133920BCE58A007604DB /* MBHudDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBHudDemoViewController.m; sourceTree = "<group>"; };
+		DB12133C20BCF714007604DB /* XLMBProgressHudTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLMBProgressHudTools.h; sourceTree = "<group>"; };
+		DB12133D20BCF714007604DB /* XLMBProgressHudTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLMBProgressHudTools.m; sourceTree = "<group>"; };
+		DB12134620BD317F007604DB /* XLBaseTableViewHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLBaseTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		DB12134720BD317F007604DB /* XLBaseTableViewHeaderFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLBaseTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		DB12134920BD3226007604DB /* XLMineTableHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLMineTableHeaderView.h; sourceTree = "<group>"; };
+		DB12134A20BD3226007604DB /* XLMineTableHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLMineTableHeaderView.m; sourceTree = "<group>"; };
+		DB12135020BD9D0E007604DB /* XLNaviView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLNaviView.h; sourceTree = "<group>"; };
+		DB12135120BD9D0E007604DB /* XLNaviView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLNaviView.m; sourceTree = "<group>"; };
+		DB12135320BD9EDC007604DB /* XLTDDLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLTDDLoginVC.h; sourceTree = "<group>"; };
+		DB12135420BD9EDC007604DB /* XLTDDLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLTDDLoginVC.m; sourceTree = "<group>"; };
+		DB12135820BE9224007604DB /* UIButton+UIButton_XLCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+UIButton_XLCategory.h"; sourceTree = "<group>"; };
+		DB12135920BE9224007604DB /* UIButton+UIButton_XLCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+UIButton_XLCategory.m"; sourceTree = "<group>"; };
+		DB12135D20BEA4C4007604DB /* UIButton+badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+badge.h"; sourceTree = "<group>"; };
+		DB12135E20BEA4C5007604DB /* UIButton+badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+badge.m"; sourceTree = "<group>"; };
+		DB12136120BECB32007604DB /* XLNormalShopModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLNormalShopModel.h; sourceTree = "<group>"; };
+		DB12136220BECB32007604DB /* XLNormalShopModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLNormalShopModel.m; sourceTree = "<group>"; };
+		DB2E796320B58068002AF173 /* XLUIImageTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLUIImageTools.h; sourceTree = "<group>"; };
+		DB2E796420B58068002AF173 /* XLUIImageTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLUIImageTools.m; sourceTree = "<group>"; };
+		DB2E8242207F360F00606FD6 /* XLTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLTabBarVC.h; sourceTree = "<group>"; };
+		DB2E8243207F360F00606FD6 /* XLTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLTabBarVC.m; sourceTree = "<group>"; };
+		DB2E8245207F41BA00606FD6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DB2E8246207F41BA00606FD6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB6495EE20BFD00700ED8784 /* XLTDDMineSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLTDDMineSettingVC.h; sourceTree = "<group>"; };
+		DB6495EF20BFD00700ED8784 /* XLTDDMineSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLTDDMineSettingVC.m; sourceTree = "<group>"; };
+		DB6495F220BFD60C00ED8784 /* XLBaseTableviewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLBaseTableviewCell.h; sourceTree = "<group>"; };
+		DB6495F320BFD60C00ED8784 /* XLBaseTableviewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLBaseTableviewCell.m; sourceTree = "<group>"; };
+		DB6495F520BFD7E700ED8784 /* XLTDDMineSettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLTDDMineSettingCell.h; sourceTree = "<group>"; };
+		DB6495F620BFD7E700ED8784 /* XLTDDMineSettingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLTDDMineSettingCell.m; sourceTree = "<group>"; };
+		DB6495F820BFDF6E00ED8784 /* UIAlertTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertTools.h; sourceTree = "<group>"; };
+		DB6495F920BFDF6F00ED8784 /* UIAlertTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertTools.m; sourceTree = "<group>"; };
+		DB64960020BFE9B700ED8784 /* XLTDDMineAboutUsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLTDDMineAboutUsVC.h; sourceTree = "<group>"; };
+		DB64960120BFE9B700ED8784 /* XLTDDMineAboutUsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLTDDMineAboutUsVC.m; sourceTree = "<group>"; };
+		DB64960D20C5A48700ED8784 /* XLTDDMineSettingFeedBackVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLTDDMineSettingFeedBackVC.h; sourceTree = "<group>"; };
+		DB64960E20C5A48700ED8784 /* XLTDDMineSettingFeedBackVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLTDDMineSettingFeedBackVC.m; sourceTree = "<group>"; };
+		DB67764A207E116A00A9FD0A /* UserDefaultsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsManager.h; sourceTree = "<group>"; };
+		DB67764B207E116A00A9FD0A /* UserDefaultsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsManager.m; sourceTree = "<group>"; };
+		DB677652207E15B000A9FD0A /* CalculateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateManager.h; sourceTree = "<group>"; };
+		DB677654207E16C500A9FD0A /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		DB677655207E16C500A9FD0A /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		DB677657207E16E400A9FD0A /* NSObject+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Category.h"; sourceTree = "<group>"; };
+		DB677658207E16E400A9FD0A /* NSObject+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Category.m"; sourceTree = "<group>"; };
+		DB70317520D259D0003D1120 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		DB70317720D259D8003D1120 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DB70317920D259DF003D1120 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DB70317B20D259E8003D1120 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DB70317D20D259EE003D1120 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DB70317F20D259F7003D1120 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DB70318120D25A06003D1120 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB70318320D25A2D003D1120 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB70318520D25A38003D1120 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB70318720D25A3F003D1120 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DB70318920D25A48003D1120 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		DB70319120D25BCA003D1120 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		DB70319220D25BCC003D1120 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		DB96A369207F34410098692B /* XLMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLMineVC.h; sourceTree = "<group>"; };
+		DB96A36A207F34410098692B /* XLMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLMineVC.m; sourceTree = "<group>"; };
+		DB96A36C207F345F0098692B /* XLShoppingCartVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLShoppingCartVC.h; sourceTree = "<group>"; };
+		DB96A36D207F345F0098692B /* XLShoppingCartVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLShoppingCartVC.m; sourceTree = "<group>"; };
+		DB96A36F207F34770098692B /* XLClassifyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLClassifyVC.h; sourceTree = "<group>"; };
+		DB96A370207F34770098692B /* XLClassifyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLClassifyVC.m; sourceTree = "<group>"; };
+		DB96A372207F348B0098692B /* XLHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLHomeVC.h; sourceTree = "<group>"; };
+		DB96A373207F348B0098692B /* XLHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLHomeVC.m; sourceTree = "<group>"; };
+		DBB88A48207E175400C0D619 /* XLTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLTools.h; sourceTree = "<group>"; };
+		DBF32B0020AD8C3800D6AD03 /* XLUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLUserModel.h; sourceTree = "<group>"; };
+		DBF32B0120AD8C3800D6AD03 /* XLUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLUserModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB106109207C9A0F00EE545B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB70318A20D25A48003D1120 /* CoreMotion.framework in Frameworks */,
+				DB70318820D25A3F003D1120 /* CFNetwork.framework in Frameworks */,
+				DB70318620D25A38003D1120 /* Foundation.framework in Frameworks */,
+				DB70318420D25A2D003D1120 /* UIKit.framework in Frameworks */,
+				DB70318220D25A06003D1120 /* CoreGraphics.framework in Frameworks */,
+				DB70318020D259F7003D1120 /* CoreText.framework in Frameworks */,
+				DB70317E20D259EE003D1120 /* QuartzCore.framework in Frameworks */,
+				DB70317C20D259E8003D1120 /* CoreTelephony.framework in Frameworks */,
+				DB70317A20D259DF003D1120 /* SystemConfiguration.framework in Frameworks */,
+				DB70317820D259D8003D1120 /* libz.tbd in Frameworks */,
+				DB70319420D25BCC003D1120 /* AlipaySDK.framework in Frameworks */,
+				DB70317620D259D0003D1120 /* libc++.tbd in Frameworks */,
+				4C65859FFD07099FBC96331B /* libPods-XLTaoMall.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DDBDD5E039DA8780B93F1B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB70318920D25A48003D1120 /* CoreMotion.framework */,
+				DB70318720D25A3F003D1120 /* CFNetwork.framework */,
+				DB70318520D25A38003D1120 /* Foundation.framework */,
+				DB70318320D25A2D003D1120 /* UIKit.framework */,
+				DB70318120D25A06003D1120 /* CoreGraphics.framework */,
+				DB70317F20D259F7003D1120 /* CoreText.framework */,
+				DB70317D20D259EE003D1120 /* QuartzCore.framework */,
+				DB70317B20D259E8003D1120 /* CoreTelephony.framework */,
+				DB70317920D259DF003D1120 /* SystemConfiguration.framework */,
+				DB70317720D259D8003D1120 /* libz.tbd */,
+				DB70317520D259D0003D1120 /* libc++.tbd */,
+				6C89B7B84B9383B2AEC919E9 /* libPods-XLTaoMall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA94C39193C090ABE9202B7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A71043915D66A9193A82A11E /* Pods-XLTaoMall.debug.xcconfig */,
+				B34CBF81F26CE3F29BF761D9 /* Pods-XLTaoMall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB106103207C9A0F00EE545B = {
+			isa = PBXGroup;
+			children = (
+				DB106125207C9D0C00EE545B /* Main(页面、基类) */,
+				DB106126207C9D9700EE545B /* EXPand(常量、宏、工具类、分类、网络、数据) */,
+				DB106127207C9E1F00EE545B /* Resource(全局、图片、配置文件) */,
+				DB106128207C9E4300EE545B /* Vender(第三方) */,
+				DB106129207C9E5B00EE545B /* SDKFile(集成文件) */,
+				DB10610D207C9A0F00EE545B /* Products */,
+				DA94C39193C090ABE9202B7E /* Pods */,
+				7DDBDD5E039DA8780B93F1B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB10610D207C9A0F00EE545B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB10610C207C9A0F00EE545B /* XLTaoMall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB106125207C9D0C00EE545B /* Main(页面、基类) */ = {
+			isa = PBXGroup;
+			children = (
+				DB96A365207F32E60098692B /* Home(首页) */,
+				DB96A366207F32F70098692B /* Classify(分类) */,
+				DB96A367207F33690098692B /* ShoppingCart(购物车) */,
+				DB96A368207F33D60098692B /* Mine(我的) */,
+				DB106143207CA43200EE545B /* Public(公共) */,
+				DB10612A207C9F2E00EE545B /* Base(基类) */,
+			);
+			path = "Main(页面、基类)";
+			sourceTree = "<group>";
+		};
+		DB106126207C9D9700EE545B /* EXPand(常量、宏、工具类、分类、网络、数据) */ = {
+			isa = PBXGroup;
+			children = (
+				DB10612B207CA08700EE545B /* Const(常量) */,
+				DB10612C207CA09900EE545B /* Macros(宏) */,
+				DB10612D207CA0AE00EE545B /* Tools(工具类) */,
+				DB10612E207CA0C200EE545B /* Category(分类) */,
+				DB10612F207CA0D600EE545B /* Network(网络) */,
+				DB106130207CA0E300EE545B /* DataBase(数据库) */,
+			);
+			path = "EXPand(常量、宏、工具类、分类、网络、数据)";
+			sourceTree = "<group>";
+		};
+		DB106127207C9E1F00EE545B /* Resource(全局、图片、配置文件) */ = {
+			isa = PBXGroup;
+			children = (
+				DB106133207CA14400EE545B /* Plist(配置) */,
+				DB106132207CA13900EE545B /* Images(图片) */,
+				DB106131207CA12B00EE545B /* Global(全局) */,
+			);
+			path = "Resource(全局、图片、配置文件)";
+			sourceTree = "<group>";
+		};
+		DB106128207C9E4300EE545B /* Vender(第三方) */ = {
+			isa = PBXGroup;
+			children = (
+				DB70319020D25BB0003D1120 /* AliPay */,
+				DB12133B20BCF6EC007604DB /* Tools */,
+				DB12133820BCE589007604DB /* MBHudDemoViewController.h */,
+				DB12133920BCE58A007604DB /* MBHudDemoViewController.m */,
+			);
+			path = "Vender(第三方)";
+			sourceTree = "<group>";
+		};
+		DB106129207C9E5B00EE545B /* SDKFile(集成文件) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "SDKFile(集成文件)";
+			sourceTree = "<group>";
+		};
+		DB10612A207C9F2E00EE545B /* Base(基类) */ = {
+			isa = PBXGroup;
+			children = (
+				DB10613F207CA29B00EE545B /* BaseOthers */,
+				DB10613E207CA28600EE545B /* BaseMVC */,
+			);
+			path = "Base(基类)";
+			sourceTree = "<group>";
+		};
+		DB10612B207CA08700EE545B /* Const(常量) */ = {
+			isa = PBXGroup;
+			children = (
+				DB106141207CA37000EE545B /* XLConstHeader.h */,
+			);
+			path = "Const(常量)";
+			sourceTree = "<group>";
+		};
+		DB10612C207CA09900EE545B /* Macros(宏) */ = {
+			isa = PBXGroup;
+			children = (
+				DB106142207CA38900EE545B /* XLMacros.h */,
+			);
+			path = "Macros(宏)";
+			sourceTree = "<group>";
+		};
+		DB10612D207CA0AE00EE545B /* Tools(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+				DBB88A48207E175400C0D619 /* XLTools.h */,
+				DB12134E20BD59E0007604DB /* OthersTools */,
+				DB12134D20BD59D2007604DB /* FoundationTools */,
+				DB12134C20BD59BC007604DB /* UIKitTools */,
+				DB12132E20BBEA58007604DB /* secret(加密) */,
+			);
+			path = "Tools(工具类)";
+			sourceTree = "<group>";
+		};
+		DB10612E207CA0C200EE545B /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				DB12135D20BEA4C4007604DB /* UIButton+badge.h */,
+				DB12135E20BEA4C5007604DB /* UIButton+badge.m */,
+				DB677657207E16E400A9FD0A /* NSObject+Category.h */,
+				DB677658207E16E400A9FD0A /* NSObject+Category.m */,
+				DB677654207E16C500A9FD0A /* NSString+Extension.h */,
+				DB677655207E16C500A9FD0A /* NSString+Extension.m */,
+				DB12135820BE9224007604DB /* UIButton+UIButton_XLCategory.h */,
+				DB12135920BE9224007604DB /* UIButton+UIButton_XLCategory.m */,
+			);
+			path = "Category(分类)";
+			sourceTree = "<group>";
+		};
+		DB10612F207CA0D600EE545B /* Network(网络) */ = {
+			isa = PBXGroup;
+			children = (
+				DB12132B20BBE63F007604DB /* XLNetworkManager.h */,
+				DB12132C20BBE63F007604DB /* XLNetworkManager.m */,
+			);
+			path = "Network(网络)";
+			sourceTree = "<group>";
+		};
+		DB106130207CA0E300EE545B /* DataBase(数据库) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "DataBase(数据库)";
+			sourceTree = "<group>";
+		};
+		DB106131207CA12B00EE545B /* Global(全局) */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E8246207F41BA00606FD6 /* LaunchScreen.storyboard */,
+				DB2E8245207F41BA00606FD6 /* Main.storyboard */,
+				DB10610F207C9A0F00EE545B /* AppDelegate.h */,
+				DB106110207C9A0F00EE545B /* AppDelegate.m */,
+				DB10611E207C9A1300EE545B /* main.m */,
+				DB106148207E0AC900EE545B /* XL-PrefixHeader.pch */,
+			);
+			path = "Global(全局)";
+			sourceTree = "<group>";
+		};
+		DB106132207CA13900EE545B /* Images(图片) */ = {
+			isa = PBXGroup;
+			children = (
+				DB106118207C9A1300EE545B /* Assets.xcassets */,
+			);
+			path = "Images(图片)";
+			sourceTree = "<group>";
+		};
+		DB106133207CA14400EE545B /* Plist(配置) */ = {
+			isa = PBXGroup;
+			children = (
+				DB10611D207C9A1300EE545B /* Info.plist */,
+			);
+			path = "Plist(配置)";
+			sourceTree = "<group>";
+		};
+		DB10613E207CA28600EE545B /* BaseMVC */ = {
+			isa = PBXGroup;
+			children = (
+				DB106135207CA24400EE545B /* XLBaseModel.h */,
+				DB106136207CA24400EE545B /* XLBaseModel.m */,
+				DB106138207CA26200EE545B /* XLBaseVC.h */,
+				DB106139207CA26200EE545B /* XLBaseVC.m */,
+				DB10613B207CA27E00EE545B /* XLBaseView.h */,
+				DB10613C207CA27E00EE545B /* XLBaseView.m */,
+				DB2E8242207F360F00606FD6 /* XLTabBarVC.h */,
+				DB2E8243207F360F00606FD6 /* XLTabBarVC.m */,
+			);
+			path = BaseMVC;
+			sourceTree = "<group>";
+		};
+		DB10613F207CA29B00EE545B /* BaseOthers */ = {
+			isa = PBXGroup;
+			children = (
+				DB12134620BD317F007604DB /* XLBaseTableViewHeaderFooterView.h */,
+				DB12134720BD317F007604DB /* XLBaseTableViewHeaderFooterView.m */,
+				DB6495F220BFD60C00ED8784 /* XLBaseTableviewCell.h */,
+				DB6495F320BFD60C00ED8784 /* XLBaseTableviewCell.m */,
+			);
+			path = BaseOthers;
+			sourceTree = "<group>";
+		};
+		DB106143207CA43200EE545B /* Public(公共) */ = {
+			isa = PBXGroup;
+			children = (
+				DB12135020BD9D0E007604DB /* XLNaviView.h */,
+				DB12135120BD9D0E007604DB /* XLNaviView.m */,
+			);
+			path = "Public(公共)";
+			sourceTree = "<group>";
+		};
+		DB12132E20BBEA58007604DB /* secret(加密) */ = {
+			isa = PBXGroup;
+			children = (
+				DB12133220BBEA83007604DB /* ConverUtil.h */,
+				DB12133120BBEA82007604DB /* ConverUtil.m */,
+				DB12133320BBEA83007604DB /* DESUtil.h */,
+				DB12133020BBEA82007604DB /* DESUtil.m */,
+				DB12133420BBEA83007604DB /* SecretCodeTool.h */,
+				DB12132F20BBEA82007604DB /* SecretCodeTool.m */,
+			);
+			path = "secret(加密)";
+			sourceTree = "<group>";
+		};
+		DB12133B20BCF6EC007604DB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DB12133C20BCF714007604DB /* XLMBProgressHudTools.h */,
+				DB12133D20BCF714007604DB /* XLMBProgressHudTools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DB12133F20BD2986007604DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB96A369207F34410098692B /* XLMineVC.h */,
+				DB96A36A207F34410098692B /* XLMineVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB12134020BD2993007604DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB12134920BD3226007604DB /* XLMineTableHeaderView.h */,
+				DB12134A20BD3226007604DB /* XLMineTableHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB12134120BD299A007604DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBF32B0020AD8C3800D6AD03 /* XLUserModel.h */,
+				DBF32B0120AD8C3800D6AD03 /* XLUserModel.m */,
+				DB12136120BECB32007604DB /* XLNormalShopModel.h */,
+				DB12136220BECB32007604DB /* XLNormalShopModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB12134C20BD59BC007604DB /* UIKitTools */ = {
+			isa = PBXGroup;
+			children = (
+				DB6495F820BFDF6E00ED8784 /* UIAlertTools.h */,
+				DB6495F920BFDF6F00ED8784 /* UIAlertTools.m */,
+				DB2E796320B58068002AF173 /* XLUIImageTools.h */,
+				DB2E796420B58068002AF173 /* XLUIImageTools.m */,
+			);
+			path = UIKitTools;
+			sourceTree = "<group>";
+		};
+		DB12134D20BD59D2007604DB /* FoundationTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FoundationTools;
+			sourceTree = "<group>";
+		};
+		DB12134E20BD59E0007604DB /* OthersTools */ = {
+			isa = PBXGroup;
+			children = (
+				DB677652207E15B000A9FD0A /* CalculateManager.h */,
+				DB106145207E077200EE545B /* CalculateManager.m */,
+				DB67764A207E116A00A9FD0A /* UserDefaultsManager.h */,
+				DB67764B207E116A00A9FD0A /* UserDefaultsManager.m */,
+			);
+			path = OthersTools;
+			sourceTree = "<group>";
+		};
+		DB12134F20BD9C4E007604DB /* Login(登录页) */ = {
+			isa = PBXGroup;
+			children = (
+				DB12135320BD9EDC007604DB /* XLTDDLoginVC.h */,
+				DB12135420BD9EDC007604DB /* XLTDDLoginVC.m */,
+			);
+			path = "Login(登录页)";
+			sourceTree = "<group>";
+		};
+		DB12136020BEA9FD007604DB /* NextVC(下一级页面) */ = {
+			isa = PBXGroup;
+			children = (
+				DB6495FC20BFE53000ED8784 /* MYservice(我的服务) */,
+				DB6495FB20BFE50800ED8784 /* MyOrder(我的订单) */,
+				DB6495ED20BFCFBD00ED8784 /* Setting(设置页面) */,
+				DB12134F20BD9C4E007604DB /* Login(登录页) */,
+			);
+			path = "NextVC(下一级页面)";
+			sourceTree = "<group>";
+		};
+		DB6495ED20BFCFBD00ED8784 /* Setting(设置页面) */ = {
+			isa = PBXGroup;
+			children = (
+				DB6495F120BFD5A900ED8784 /* Next */,
+				DB6495F520BFD7E700ED8784 /* XLTDDMineSettingCell.h */,
+				DB6495F620BFD7E700ED8784 /* XLTDDMineSettingCell.m */,
+				DB6495EE20BFD00700ED8784 /* XLTDDMineSettingVC.h */,
+				DB6495EF20BFD00700ED8784 /* XLTDDMineSettingVC.m */,
+			);
+			path = "Setting(设置页面)";
+			sourceTree = "<group>";
+		};
+		DB6495F120BFD5A900ED8784 /* Next */ = {
+			isa = PBXGroup;
+			children = (
+				DB64960C20C5A44700ED8784 /* 账户信息 */,
+				DB64960B20C5A44100ED8784 /* 收货地址 */,
+				DB64960A20C5A43A00ED8784 /* 修改密码 */,
+				DB64960920C5A43400ED8784 /* 关于我们 */,
+				DB64960820C5A41E00ED8784 /* 反馈 */,
+			);
+			path = Next;
+			sourceTree = "<group>";
+		};
+		DB6495FB20BFE50800ED8784 /* MyOrder(我的订单) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "MyOrder(我的订单)";
+			sourceTree = "<group>";
+		};
+		DB6495FC20BFE53000ED8784 /* MYservice(我的服务) */ = {
+			isa = PBXGroup;
+			children = (
+				DB64960720C5248200ED8784 /* 推广返利 */,
+				DB64960620C5247C00ED8784 /* 账户余额 */,
+				DB64960520C5246E00ED8784 /* 领券中心 */,
+				DB64960420C5246100ED8784 /* 优惠券 */,
+			);
+			path = "MYservice(我的服务)";
+			sourceTree = "<group>";
+		};
+		DB64960420C5246100ED8784 /* 优惠券 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "优惠券";
+			sourceTree = "<group>";
+		};
+		DB64960520C5246E00ED8784 /* 领券中心 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "领券中心";
+			sourceTree = "<group>";
+		};
+		DB64960620C5247C00ED8784 /* 账户余额 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "账户余额";
+			sourceTree = "<group>";
+		};
+		DB64960720C5248200ED8784 /* 推广返利 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "推广返利";
+			sourceTree = "<group>";
+		};
+		DB64960820C5A41E00ED8784 /* 反馈 */ = {
+			isa = PBXGroup;
+			children = (
+				DB64960D20C5A48700ED8784 /* XLTDDMineSettingFeedBackVC.h */,
+				DB64960E20C5A48700ED8784 /* XLTDDMineSettingFeedBackVC.m */,
+			);
+			path = "反馈";
+			sourceTree = "<group>";
+		};
+		DB64960920C5A43400ED8784 /* 关于我们 */ = {
+			isa = PBXGroup;
+			children = (
+				DB64960020BFE9B700ED8784 /* XLTDDMineAboutUsVC.h */,
+				DB64960120BFE9B700ED8784 /* XLTDDMineAboutUsVC.m */,
+			);
+			path = "关于我们";
+			sourceTree = "<group>";
+		};
+		DB64960A20C5A43A00ED8784 /* 修改密码 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "修改密码";
+			sourceTree = "<group>";
+		};
+		DB64960B20C5A44100ED8784 /* 收货地址 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "收货地址";
+			sourceTree = "<group>";
+		};
+		DB64960C20C5A44700ED8784 /* 账户信息 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "账户信息";
+			sourceTree = "<group>";
+		};
+		DB70319020D25BB0003D1120 /* AliPay */ = {
+			isa = PBXGroup;
+			children = (
+				DB70319120D25BCA003D1120 /* AlipaySDK.bundle */,
+				DB70319220D25BCC003D1120 /* AlipaySDK.framework */,
+			);
+			path = AliPay;
+			sourceTree = "<group>";
+		};
+		DB96A365207F32E60098692B /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				DB96A372207F348B0098692B /* XLHomeVC.h */,
+				DB96A373207F348B0098692B /* XLHomeVC.m */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		DB96A366207F32F70098692B /* Classify(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				DB96A36F207F34770098692B /* XLClassifyVC.h */,
+				DB96A370207F34770098692B /* XLClassifyVC.m */,
+			);
+			path = "Classify(分类)";
+			sourceTree = "<group>";
+		};
+		DB96A367207F33690098692B /* ShoppingCart(购物车) */ = {
+			isa = PBXGroup;
+			children = (
+				DB96A36C207F345F0098692B /* XLShoppingCartVC.h */,
+				DB96A36D207F345F0098692B /* XLShoppingCartVC.m */,
+			);
+			path = "ShoppingCart(购物车)";
+			sourceTree = "<group>";
+		};
+		DB96A368207F33D60098692B /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				DB12134120BD299A007604DB /* Model */,
+				DB12134020BD2993007604DB /* View */,
+				DB12133F20BD2986007604DB /* Controller */,
+				DB12136020BEA9FD007604DB /* NextVC(下一级页面) */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB10610B207C9A0F00EE545B /* XLTaoMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB106122207C9A1300EE545B /* Build configuration list for PBXNativeTarget "XLTaoMall" */;
+			buildPhases = (
+				F11CA01854CCED6F4978E729 /* [CP] Check Pods Manifest.lock */,
+				DB106108207C9A0F00EE545B /* Sources */,
+				DB106109207C9A0F00EE545B /* Frameworks */,
+				DB10610A207C9A0F00EE545B /* Resources */,
+				3B9CE58722C6783F084E22FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLTaoMall;
+			productName = XLTaoMall;
+			productReference = DB10610C207C9A0F00EE545B /* XLTaoMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB106104207C9A0F00EE545B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Hawky;
+				TargetAttributes = {
+					DB10610B207C9A0F00EE545B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = DB106107207C9A0F00EE545B /* Build configuration list for PBXProject "XLTaoMall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB106103207C9A0F00EE545B;
+			productRefGroup = DB10610D207C9A0F00EE545B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB10610B207C9A0F00EE545B /* XLTaoMall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB10610A207C9A0F00EE545B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2E8248207F41BB00606FD6 /* LaunchScreen.storyboard in Resources */,
+				DB106119207C9A1300EE545B /* Assets.xcassets in Resources */,
+				DB70319320D25BCC003D1120 /* AlipaySDK.bundle in Resources */,
+				DB2E8247207F41BB00606FD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B9CE58722C6783F084E22FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XLTaoMall/Pods-XLTaoMall-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLTaoMall/Pods-XLTaoMall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F11CA01854CCED6F4978E729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLTaoMall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB106108207C9A0F00EE545B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB106147207E077200EE545B /* CalculateManager.m in Sources */,
+				DB10611F207C9A1300EE545B /* main.m in Sources */,
+				DB10613A207CA26200EE545B /* XLBaseVC.m in Sources */,
+				DB96A371207F34770098692B /* XLClassifyVC.m in Sources */,
+				DB96A374207F348B0098692B /* XLHomeVC.m in Sources */,
+				DB12135520BD9EDC007604DB /* XLTDDLoginVC.m in Sources */,
+				DB10613D207CA27E00EE545B /* XLBaseView.m in Sources */,
+				DB12133520BBEA83007604DB /* SecretCodeTool.m in Sources */,
+				DB106111207C9A0F00EE545B /* AppDelegate.m in Sources */,
+				DB677659207E16E400A9FD0A /* NSObject+Category.m in Sources */,
+				DB6495F420BFD60C00ED8784 /* XLBaseTableviewCell.m in Sources */,
+				DBF32B0220AD8C3800D6AD03 /* XLUserModel.m in Sources */,
+				DB6495F020BFD00700ED8784 /* XLTDDMineSettingVC.m in Sources */,
+				DB12135220BD9D0E007604DB /* XLNaviView.m in Sources */,
+				DB2E8244207F360F00606FD6 /* XLTabBarVC.m in Sources */,
+				DB12134820BD317F007604DB /* XLBaseTableViewHeaderFooterView.m in Sources */,
+				DB64960F20C5A48700ED8784 /* XLTDDMineSettingFeedBackVC.m in Sources */,
+				DB64960220BFE9B700ED8784 /* XLTDDMineAboutUsVC.m in Sources */,
+				DB106137207CA24400EE545B /* XLBaseModel.m in Sources */,
+				DB12135F20BEA4C5007604DB /* UIButton+badge.m in Sources */,
+				DB6495FA20BFDF6F00ED8784 /* UIAlertTools.m in Sources */,
+				DB12133A20BCE58A007604DB /* MBHudDemoViewController.m in Sources */,
+				DB96A36E207F345F0098692B /* XLShoppingCartVC.m in Sources */,
+				DB12136320BECB32007604DB /* XLNormalShopModel.m in Sources */,
+				DB12133620BBEA83007604DB /* DESUtil.m in Sources */,
+				DB12133720BBEA83007604DB /* ConverUtil.m in Sources */,
+				DB2E796520B58068002AF173 /* XLUIImageTools.m in Sources */,
+				DB6495F720BFD7E700ED8784 /* XLTDDMineSettingCell.m in Sources */,
+				DB12133E20BCF714007604DB /* XLMBProgressHudTools.m in Sources */,
+				DB12134B20BD3226007604DB /* XLMineTableHeaderView.m in Sources */,
+				DB67764C207E116A00A9FD0A /* UserDefaultsManager.m in Sources */,
+				DB12132D20BBE63F007604DB /* XLNetworkManager.m in Sources */,
+				DB12135A20BE9224007604DB /* UIButton+UIButton_XLCategory.m in Sources */,
+				DB677656207E16C500A9FD0A /* NSString+Extension.m in Sources */,
+				DB96A36B207F34410098692B /* XLMineVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB106120207C9A1300EE545B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Resource(全局、图片、配置文件)/Global(全局)/XL-PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB106121207C9A1300EE545B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Resource(全局、图片、配置文件)/Global(全局)/XL-PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB106123207C9A1300EE545B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71043915D66A9193A82A11E /* Pods-XLTaoMall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NBYJ67J4SG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vender(第三方)/AliPay",
+					"$(PROJECT_DIR)/Vender(第三方)/New\\ Group",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Resource(全局、图片、配置文件)/Global(全局)/XL-PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Resource(全局、图片、配置文件)/Plist(配置)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vender(第三方)/AliPay",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.XL.XLTaoMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Debug;
+		};
+		DB106124207C9A1300EE545B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B34CBF81F26CE3F29BF761D9 /* Pods-XLTaoMall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBYJ67J4SG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vender(第三方)/AliPay",
+					"$(PROJECT_DIR)/Vender(第三方)/New\\ Group",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Resource(全局、图片、配置文件)/Global(全局)/XL-PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Resource(全局、图片、配置文件)/Plist(配置)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vender(第三方)/AliPay",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.XL.XLTaoMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB106107207C9A0F00EE545B /* Build configuration list for PBXProject "XLTaoMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB106120207C9A1300EE545B /* Debug */,
+				DB106121207C9A1300EE545B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB106122207C9A1300EE545B /* Build configuration list for PBXNativeTarget "XLTaoMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB106123207C9A1300EE545B /* Debug */,
+				DB106124207C9A1300EE545B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB106104207C9A0F00EE545B /* Project object */;
+}
