@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setTitle:@"首页"];
-
+    XLLog(@"最是那一低头的温柔,像一朵水莲花不胜凉风的娇羞！");
     UIWebView *web=[[UIWebView alloc] initWithFrame:CGRectMake(0, KSafeAreaTopNaviHeight, KScreen_Width, KScreen_Height-KSafeAreaTopNaviHeight-KSafeAreaBottomHeight)];
     web.scalesPageToFit=YES;
     NSString *str=@"<p><img src=\"http://39.108.151.219:8072/data/ueditorImg/20180613/1528874134736067042.jpg\" style=\"\" title=\"1528874134736067042.jpg\"/></p><p><img src=\"http://39.108.151.219:8072/data/ueditorImg/20180613/1528874134748008122.jpg\" style=\"\" title=\"1528874134748008122.jpg\"/></p><p><img src=\"http://39.108.151.219:8072/data/ueditorImg/20180613/1528874134803036412.jpg\" style=\"\" title=\"1528874134803036412.jpg\"/></p><p><img src=\"http://39.108.151.219:8072/data/ueditorImg/20180613/1528874135021002507.jpg\" style=\"\" title=\"1528874135021002507.jpg\"/></p><p><img src=\"http://39.108.151.219:8072/data/ueditorImg/20180613/1528874135161065733.jpg\" style=\"\" title=\"1528874135161065733.jpg\"/></p><p><img src=\"http://39.108.151.219:8072/data/ueditorImg/20180613/1528874135375033243.jpg\" style=\"\" title=\"1528874135375033243.jpg\"/></p><p><img src=\"http://39.108.151.219:8072/data/ueditorImg/20180613/1528874135146031408.jpg\" style=\"\" title=\"1528874135146031408.jpg\"/></p><p><img src=\"http://39.108.151.219:8072/data/ueditorImg/20180613/1528874135683041254.jpg\" style=\"\" title=\"1528874135683041254.jpg\"/></p><p><br/></p>";
