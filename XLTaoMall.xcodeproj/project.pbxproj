@@ -58,6 +58,9 @@
 		DB96A36E207F345F0098692B /* XLShoppingCartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96A36D207F345F0098692B /* XLShoppingCartVC.m */; };
 		DB96A371207F34770098692B /* XLClassifyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96A370207F34770098692B /* XLClassifyVC.m */; };
 		DB96A374207F348B0098692B /* XLHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB96A373207F348B0098692B /* XLHomeVC.m */; };
+		DBBCD5E92108969A003DECF8 /* TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBCD5E82108969A003DECF8 /* TEST.m */; };
+		DBBCD5F1210896DE003DECF8 /* XLClassifySecondLevelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBCD5ED210896DD003DECF8 /* XLClassifySecondLevelModel.m */; };
+		DBBCD5F2210896DE003DECF8 /* XLClassifyFirstLevelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBCD5EE210896DD003DECF8 /* XLClassifyFirstLevelModel.m */; };
 		DBF32B0220AD8C3800D6AD03 /* XLUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF32B0120AD8C3800D6AD03 /* XLUserModel.m */; };
 		EEF5D10D2105D76500263573 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF5D10C2105D76500263573 /* testViewController.m */; };
 /* End PBXBuildFile section */
@@ -155,6 +158,12 @@
 		DB96A372207F348B0098692B /* XLHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLHomeVC.h; sourceTree = "<group>"; };
 		DB96A373207F348B0098692B /* XLHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLHomeVC.m; sourceTree = "<group>"; };
 		DBB88A48207E175400C0D619 /* XLTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLTools.h; sourceTree = "<group>"; };
+		DBBCD5E72108969A003DECF8 /* TEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEST.h; sourceTree = "<group>"; };
+		DBBCD5E82108969A003DECF8 /* TEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEST.m; sourceTree = "<group>"; };
+		DBBCD5EB210896DD003DECF8 /* XLClassifySecondLevelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLClassifySecondLevelModel.h; sourceTree = "<group>"; };
+		DBBCD5EC210896DD003DECF8 /* XLClassifyFirstLevelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLClassifyFirstLevelModel.h; sourceTree = "<group>"; };
+		DBBCD5ED210896DD003DECF8 /* XLClassifySecondLevelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLClassifySecondLevelModel.m; sourceTree = "<group>"; };
+		DBBCD5EE210896DD003DECF8 /* XLClassifyFirstLevelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLClassifyFirstLevelModel.m; sourceTree = "<group>"; };
 		DBF32B0020AD8C3800D6AD03 /* XLUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLUserModel.h; sourceTree = "<group>"; };
 		DBF32B0120AD8C3800D6AD03 /* XLUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLUserModel.m; sourceTree = "<group>"; };
 		EEF5D10B2105D76500263573 /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
@@ -256,7 +265,7 @@
 				DB10612D207CA0AE00EE545B /* Tools(工具类) */,
 				DB10612E207CA0C200EE545B /* Category(分类) */,
 				DB10612F207CA0D600EE545B /* Network(网络) */,
-				DB106130207CA0E300EE545B /* DataBase(数据库) */,
+				DBBCD5E621089683003DECF8 /* DataBase(数据库) */,
 			);
 			path = "EXPand(常量、宏、工具类、分类、网络、数据)";
 			sourceTree = "<group>";
@@ -341,13 +350,6 @@
 				DB12132C20BBE63F007604DB /* XLNetworkManager.m */,
 			);
 			path = "Network(网络)";
-			sourceTree = "<group>";
-		};
-		DB106130207CA0E300EE545B /* DataBase(数据库) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "DataBase(数据库)";
 			sourceTree = "<group>";
 		};
 		DB106131207CA12B00EE545B /* Global(全局) */ = {
@@ -644,6 +646,9 @@
 		DB96A366207F32F70098692B /* Classify(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				DBBCD5EF210896DE003DECF8 /* Controller */,
+				DBBCD5EA210896DD003DECF8 /* Model */,
+				DBBCD5F0210896DE003DECF8 /* View */,
 				DB96A36F207F34770098692B /* XLClassifyVC.h */,
 				DB96A370207F34770098692B /* XLClassifyVC.m */,
 			);
@@ -668,6 +673,40 @@
 				DB12136020BEA9FD007604DB /* NextVC(下一级页面) */,
 			);
 			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		DBBCD5E621089683003DECF8 /* DataBase(数据库) */ = {
+			isa = PBXGroup;
+			children = (
+				DBBCD5E72108969A003DECF8 /* TEST.h */,
+				DBBCD5E82108969A003DECF8 /* TEST.m */,
+			);
+			path = "DataBase(数据库)";
+			sourceTree = "<group>";
+		};
+		DBBCD5EA210896DD003DECF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBBCD5EB210896DD003DECF8 /* XLClassifySecondLevelModel.h */,
+				DBBCD5EC210896DD003DECF8 /* XLClassifyFirstLevelModel.h */,
+				DBBCD5ED210896DD003DECF8 /* XLClassifySecondLevelModel.m */,
+				DBBCD5EE210896DD003DECF8 /* XLClassifyFirstLevelModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBBCD5EF210896DE003DECF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DBBCD5F0210896DE003DECF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		EEF5D10A2105D61900263573 /* SDKFiles(集成文件) */ = {
@@ -793,6 +832,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBBCD5F2210896DE003DECF8 /* XLClassifyFirstLevelModel.m in Sources */,
 				DB106147207E077200EE545B /* CalculateManager.m in Sources */,
 				DB10611F207C9A1300EE545B /* main.m in Sources */,
 				DB10613A207CA26200EE545B /* XLBaseVC.m in Sources */,
@@ -801,6 +841,7 @@
 				DB12135520BD9EDC007604DB /* XLTDDLoginVC.m in Sources */,
 				EEF5D10D2105D76500263573 /* testViewController.m in Sources */,
 				DB10613D207CA27E00EE545B /* XLBaseView.m in Sources */,
+				DBBCD5F1210896DE003DECF8 /* XLClassifySecondLevelModel.m in Sources */,
 				DB12133520BBEA83007604DB /* SecretCodeTool.m in Sources */,
 				DB106111207C9A0F00EE545B /* AppDelegate.m in Sources */,
 				DB677659207E16E400A9FD0A /* NSObject+Category.m in Sources */,
@@ -808,6 +849,7 @@
 				DBF32B0220AD8C3800D6AD03 /* XLUserModel.m in Sources */,
 				DB6495F020BFD00700ED8784 /* XLTDDMineSettingVC.m in Sources */,
 				DB12135220BD9D0E007604DB /* XLNaviView.m in Sources */,
+				DBBCD5E92108969A003DECF8 /* TEST.m in Sources */,
 				DB2E8244207F360F00606FD6 /* XLTabBarVC.m in Sources */,
 				DB12134820BD317F007604DB /* XLBaseTableViewHeaderFooterView.m in Sources */,
 				DB64960F20C5A48700ED8784 /* XLTDDMineSettingFeedBackVC.m in Sources */,
