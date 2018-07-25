@@ -34,6 +34,7 @@ static NSString *const URL_Str1=@"http://athmall.com/pay/";
 
 /*****  重复点击底部tabbar通知 *****/
 static NSString *const XLNotiTabBarDidSelectedRepeated = @"tabBarDidSelectedRepeatNotification";
+static NSString *const XLNotiJumpToLeiMuNoti = @"XLJumpToLeiMuNotification";
 /*****  登录成功通知 *****/
 static NSString *const XLLoginInSuccessNoti = @"XLLoginInSuccessNoti";
 /*****  退出登录通知 *****/

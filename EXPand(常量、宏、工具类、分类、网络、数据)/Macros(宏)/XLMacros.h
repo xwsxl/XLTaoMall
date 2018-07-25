@@ -75,6 +75,8 @@
 #define TEXTSECONDBLACKCOLOR RGB(74, 74, 74)
 /*****  字体基本灰色 *****/
 #define TEXTGRAYCOLOR RGB(153, 153, 153)
+/*****  灰色分割线 *****/
+#define MAINSEPRATELINECOLOR RGB(224, 224, 224)
 /*****  字体白色 *****/
 #define TEXTWHITECOLOR [UIColor whiteColor]
 

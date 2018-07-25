@@ -35,7 +35,7 @@
     /*****  监听其他页面跳转到分类的具体类目 *****/
     [KNotificationCenter addObserver:self selector:@selector(JumpToLeimu:) name:XLNotiJumpToLeiMuNoti object:nil];
     //监听重复点击tabbar
-    [KNotificationCenter addObserver:self selector:@selector(tabbarRepeatSelectNoti:) name:XLNotiTabBarDidSelectedRepeatedNoti object:nil];
+    [KNotificationCenter addObserver:self selector:@selector(tabbarRepeatSelectNoti:) name:XLNotiTabBarDidSelectedRepeated object:nil];
     return self;
 }
 /*****
@@ -102,10 +102,10 @@
     if (!_titleScroll) {
         CGFloat BHeight=40;
         CGFloat BWidth=CWidth(80);
-        _titleScroll = [[UIScrollView alloc]initWithFrame:CGRectMake(0, KSafeAreaTopNaviHeight,BWidth, [UIScreen mainScreen].bounds.size.height-KSafeAreaTopNaviHeight-1-49-KSafeAreaBottomHeight)];
+        _titleScroll = [[UIScrollView alloc]initWithFrame:CGRectMake(0, KSafeAreaTopNaviHeight,BWidth+1, [UIScreen mainScreen].bounds.size.height-KSafeAreaTopNaviHeight-1-49-KSafeAreaBottomHeight)];
         _titleScroll.contentSize = CGSizeMake(BWidth, self.DataSource.count*BHeight);
         _titleScroll.bounces=NO;
-        UIView *rightLine=[[UIView alloc] initWithFrame:CGRectMake(BWidth-1, 0, 1, _titleScroll.frame.size.height)];
+        UIView *rightLine=[[UIView alloc] initWithFrame:CGRectMake(BWidth, 0, 1, _titleScroll.frame.size.height)];
         [rightLine setBackgroundColor:MAINSEPRATELINECOLOR];
         [_titleScroll addSubview:rightLine];
         for (int i=0; i<self.DataSource.count; i++) {
@@ -113,7 +113,7 @@
             UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(0, BHeight*i, BWidth, BHeight)];
             btn.backgroundColor=[UIColor whiteColor];
             [btn setTitle:model.name forState:UIControlStateNormal];
-            [btn setTintColor:TEXTSECONDBLACKCOLOR];
+            [btn setTitleColor:TEXTSECONDBLACKCOLOR forState:UIControlStateNormal];
             [btn.titleLabel setFont:KNSFONT(14)];
             btn.tag=100+i;
             if (!selectIndex) {
@@ -155,7 +155,7 @@
             model.ClassiFyId=@"";
             [self.DataSource addObject:model];
             for (NSDictionary *dic in response[@"list1"]) {
-                XLClassifyFirstLevelModel *model=[XLClassifyFirstLevelModel mj_setKeyValues:dic];
+                XLClassifyFirstLevelModel *model=[XLClassifyFirstLevelModel mj_objectWithKeyValues:dic];
                 [self.DataSource addObject:model];
             }
             [self initLeftSelectTypeView];
@@ -192,5 +192,11 @@
     [super didReceiveMemoryWarning];
 }
 
-
+-(NSMutableArray *)DataSource
+{
+    if (!_DataSource) {
+        _DataSource=[[NSMutableArray alloc] init];
+    }
+    return _DataSource;
+}
 @end

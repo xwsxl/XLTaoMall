@@ -16,6 +16,10 @@
 
 /*****  表视图的头部logo和头部logo商品gid *****/
 @property (nonatomic,strong)NSString *logo;
+@property (nonatomic,strong)NSString *logo2;
+@property (nonatomic,strong)NSString *logo3;
+
+
 @property (nonatomic,strong)NSString *gid;
 
 @end
