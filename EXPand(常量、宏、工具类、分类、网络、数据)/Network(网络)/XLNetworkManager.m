@@ -55,7 +55,7 @@
         xmlStr = [xmlStr stringByReplacingOccurrencesOfString:@"&gt;" withString:@">"];
         NSData *data = [[NSData alloc] initWithData:[xmlStr dataUsingEncoding:NSUTF8StringEncoding]];
         id result = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-        XLLog(@"url=%@\nparams=%@\nresponseObject=%@",urlString,[params mj_JSONString],[result mj_JSONString]);
+        XLLog(@"url=%@\nparams=%@\nresponseObject=%@",url,[params mj_JSONString],[result mj_JSONString]);
         if ([result isKindOfClass:NSClassFromString(@"__NSCFArray")]||[result isKindOfClass:NSClassFromString(@"__NSArrayM")]) {
             NSDictionary *response=[result lastObject];
             success(response);

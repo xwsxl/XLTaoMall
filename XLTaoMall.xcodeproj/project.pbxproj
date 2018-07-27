@@ -688,8 +688,8 @@
 			isa = PBXGroup;
 			children = (
 				DBBCD5EB210896DD003DECF8 /* XLClassifySecondLevelModel.h */,
-				DBBCD5EC210896DD003DECF8 /* XLClassifyFirstLevelModel.h */,
 				DBBCD5ED210896DD003DECF8 /* XLClassifySecondLevelModel.m */,
+				DBBCD5EC210896DD003DECF8 /* XLClassifyFirstLevelModel.h */,
 				DBBCD5EE210896DD003DECF8 /* XLClassifyFirstLevelModel.m */,
 			);
 			path = Model;
